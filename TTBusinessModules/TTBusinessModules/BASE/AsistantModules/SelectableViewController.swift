@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import NMBaseModel
-import NMBaseView
+import TTBaseModel
+import TTBaseView
 
 open class SelectableViewController: BaseViewController {
     // MARK: - Outlets

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import NMBaseModel
+import TTBaseModel
 
 class InventoryDetailVM: BaseListViewModel<InventoryDetailItemViewModel> {
     var pnMaster: PnMaster?

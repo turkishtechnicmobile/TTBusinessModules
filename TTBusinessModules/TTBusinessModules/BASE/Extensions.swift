@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import NMBaseModel
+import TTBaseModel
 
 extension UIStoryboard {
     func instance<T: UIViewController>(of type: T.Type) -> T {

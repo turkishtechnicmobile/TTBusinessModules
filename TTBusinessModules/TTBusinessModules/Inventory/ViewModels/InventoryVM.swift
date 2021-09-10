@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import NMBaseApp
-import NMBaseModel
+import TTBaseApp
+import TTBaseModel
 
 open class InventoryVM: BaseListViewModel<InventoryDetailItemViewModel> {
     private var airCrafts = [AcMaster]()

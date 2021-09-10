@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import NMBaseApp
-import NMBaseModel
+import TTBaseApp
+import TTBaseModel
 
 open class SelectableViewModel: BaseFirstListViewModel<SelectableItemViewModel> {
     var showOption: ShowOption

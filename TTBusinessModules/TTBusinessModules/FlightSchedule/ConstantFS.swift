@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import NMBaseApp
+import TTBaseApp
 
 class ConstantFS: ConstantManager {
  

@@ -8,7 +8,7 @@
 
 import Foundation
 import ObjectMapper
-import NMBaseModel
+import TTBaseModel
 
 public class ResponseFlightSchedule: Mappable {
     

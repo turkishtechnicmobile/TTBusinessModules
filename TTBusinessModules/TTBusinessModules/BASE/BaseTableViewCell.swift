@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import NMBaseView
-import NMBaseModel
+import TTBaseView
+import TTBaseModel
 
 
 class BaseTableViewCell: UITableViewCell, ConfigurableCell, ThemeApplierListener {

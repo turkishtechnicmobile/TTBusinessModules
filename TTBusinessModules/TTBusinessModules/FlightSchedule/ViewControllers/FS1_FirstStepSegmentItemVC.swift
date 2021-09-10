@@ -6,9 +6,9 @@
 //  Copyright © 2018 Turkish Technic. All rights reserved.
 
 import UIKit
-import NMBaseModel
-import NMBaseService
-import NMBaseView
+import TTBaseModel
+import TTBaseService
+import TTBaseView
 
 protocol FS1_FirstStepSegmentItemVCDelegate {
     func filter(with filter: FSFilter)

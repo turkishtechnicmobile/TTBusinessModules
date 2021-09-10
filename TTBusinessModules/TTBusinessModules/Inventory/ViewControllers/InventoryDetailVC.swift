@@ -8,7 +8,7 @@
 
 
 import UIKit
-import NMBaseView
+import TTBaseView
 
 class InventoryDetailVC: BaseTableViewController {
     

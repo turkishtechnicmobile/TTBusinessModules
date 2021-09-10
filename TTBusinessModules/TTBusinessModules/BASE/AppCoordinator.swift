@@ -7,7 +7,7 @@
 
 
 import UIKit
-import NMBaseModel
+import TTBaseModel
 
 open class BaseAppCoordinator: NSObject, Coordinator {
     struct Storyboard {

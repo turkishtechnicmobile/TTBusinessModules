@@ -7,9 +7,9 @@
 //
 
 import Foundation
-import NMBaseApp
-import NMBaseModel
-import NMBaseService
+import TTBaseApp
+import TTBaseModel
+import TTBaseService
 
 open class BaseApiGatewayServices {
     typealias QueryParameters = [String: String]

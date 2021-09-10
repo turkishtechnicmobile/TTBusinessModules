@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import NMBaseApp
+import TTBaseApp
 
 class ConstantInventory: ConstantManager {
     

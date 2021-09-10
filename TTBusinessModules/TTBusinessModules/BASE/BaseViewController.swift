@@ -7,10 +7,10 @@
 
 import UIKit
 import Foundation
-import NMBaseService
-import NMBaseApp
-import NMBaseModel
-import NMBaseView
+import TTBaseService
+import TTBaseApp
+import TTBaseModel
+import TTBaseView
 
 class BaseNavigationController: UINavigationController { }
 

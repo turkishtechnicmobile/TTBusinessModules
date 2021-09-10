@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import NMBaseApp
-import NMBaseModel
-import NMBaseView
+import TTBaseApp
+import TTBaseModel
+import TTBaseView
 
 open class SegmentCollectionViewController: BaseViewController {
     

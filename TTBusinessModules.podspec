@@ -19,4 +19,8 @@ Pod::Spec.new do |spec|
   spec.resources = '**/*.png', '*.png', '**/*.jpeg', '*.jpeg', '**/*.jpg', '*.jpg', '**/*.storyboard', '*.storyboard', '**/*.xib', '*.xib', '**/*.xcassets', '*.xcassets'
   spec.swift_versions = '4.2'
   spec.ios.deployment_target = '11.0'
+  spec.dependency 'TTBaseModel', '~>0.0.1'
+  spec.dependency 'TTBaseApp', '~>0.0.1'
+  spec.dependency 'TTBaseService', '~>0.0.1'
+  spec.dependency 'TTBaseView', '~>0.0.1'
 end

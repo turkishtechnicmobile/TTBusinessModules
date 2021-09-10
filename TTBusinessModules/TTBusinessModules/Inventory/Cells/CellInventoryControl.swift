@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import NMBaseModel
-import NMBaseView
+import TTBaseModel
+import TTBaseView
 
 class CellInventoryControl: UITableViewCell, ConfigurableCell, ThemeApplierListener {
     

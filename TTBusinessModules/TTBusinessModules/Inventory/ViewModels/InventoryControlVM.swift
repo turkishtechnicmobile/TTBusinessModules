@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import NMBaseModel
+import TTBaseModel
 
 class InventoryControlVM: BaseSectionListViewModel<BaseSectionItemViewModel<InventoryControlItemVM>> {
     let pnMaster: PnMaster
