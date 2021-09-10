@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans-700.ttf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--InventoryVC-->
+        <scene sceneID="ph9-Vd-cgw">
+            <objects>
+                <viewController storyboardIdentifier="InventoryVC" id="7Gc-iA-tB6" customClass="InventoryVC" customModule="NMBusinessModules" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nLW-a7-62a">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ugr-Oz-40x">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gWf-1k-fit">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="152"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="SUO-0C-94g">
+                                                <rect key="frame" x="16" y="8" width="736" height="88"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="YSS-Mu-P7D">
+                                                        <rect key="frame" x="0.0" y="0.0" width="224" height="88"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qmf-yj-zNa" customClass="TitledTextFieldComponentView" customModule="NMBaseView">
+                                                                <rect key="frame" x="0.0" y="0.0" width="224" height="40"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="40" id="mW6-Fn-owc"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n5h-0J-Tva" customClass="TitledTextFieldComponentView" customModule="NMBaseView">
+                                                                <rect key="frame" x="0.0" y="48" width="224" height="40"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Be6-9C-grt">
+                                                        <rect key="frame" x="256" y="0.0" width="224" height="88"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RGl-gn-GAi" customClass="TitledTextFieldComponentView" customModule="NMBaseView">
+                                                                <rect key="frame" x="0.0" y="0.0" width="224" height="40"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tes-Ow-AM4" customClass="TitledButtonComponentView" customModule="NMBaseView">
+                                                                <rect key="frame" x="0.0" y="48" width="224" height="40"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8hu-Qw-ilx">
+                                                        <rect key="frame" x="512" y="0.0" width="224" height="88"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tq7-vJ-ddY">
+                                                                <rect key="frame" x="0.0" y="0.0" width="224" height="40"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ycb-Lp-qBN" customClass="ButtonComponentView" customModule="NMBaseView">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="134.5" height="40"/>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    </view>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dTb-Fn-85g">
+                                                                        <rect key="frame" x="134.5" y="0.0" width="89.5" height="40"/>
+                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    </view>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="Ycb-Lp-qBN" firstAttribute="width" secondItem="tq7-vJ-ddY" secondAttribute="width" multiplier="0.6" id="Bu5-iw-3fC"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akH-7j-Wrm">
+                                                                <rect key="frame" x="0.0" y="48" width="224" height="40"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="22"/>
+                                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <inset key="imageEdgeInsets" minX="-40" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                                <state key="normal" title="SEARCH" image="searchIcon"/>
+                                                                <connections>
+                                                                    <action selector="buttonTapped:" destination="7Gc-iA-tB6" eventType="touchUpInside" id="wEb-Uf-obI"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xjA-Fu-jhb" customClass="TitleComponentView" customModule="NMBaseView">
+                                                <rect key="frame" x="16" y="104" width="736" height="40"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="whP-sD-Cow"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <edgeInsets key="layoutMargins" top="8" left="16" bottom="8" right="16"/>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="II3-NE-oPX">
+                                        <rect key="frame" x="0.0" y="152" width="768" height="872"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZSP-sM-YBB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ugr-Oz-40x" firstAttribute="top" secondItem="ZSP-sM-YBB" secondAttribute="top" id="VeZ-Dk-Uz1"/>
+                            <constraint firstItem="ugr-Oz-40x" firstAttribute="trailing" secondItem="ZSP-sM-YBB" secondAttribute="trailing" id="dSV-dy-etW"/>
+                            <constraint firstItem="ugr-Oz-40x" firstAttribute="leading" secondItem="ZSP-sM-YBB" secondAttribute="leading" id="jCs-FF-T2e"/>
+                            <constraint firstItem="ZSP-sM-YBB" firstAttribute="bottom" secondItem="ugr-Oz-40x" secondAttribute="bottom" id="nFH-4A-Bir"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="airCraftComponentView" destination="Tes-Ow-AM4" id="iFo-Mj-LbT"/>
+                        <outlet property="companyComponentView" destination="Ycb-Lp-qBN" id="ZLe-dm-1fQ"/>
+                        <outlet property="containerView" destination="II3-NE-oPX" id="TEb-YO-OPC"/>
+                        <outlet property="locationComponentView" destination="n5h-0J-Tva" id="8uJ-4A-1N8"/>
+                        <outlet property="pnComponentView" destination="qmf-yj-zNa" id="UG7-kD-S9I"/>
+                        <outlet property="pnInfoComponentView" destination="xjA-Fu-jhb" id="1Dh-dx-acM"/>
+                        <outlet property="searchButton" destination="akH-7j-Wrm" id="3hn-8A-GTX"/>
+                        <outlet property="snComponentView" destination="RGl-gn-GAi" id="hd3-XK-gEZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Kn-GN-b3w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-473" y="-245"/>
+        </scene>
+        <!--Inventory SummaryVC-->
+        <scene sceneID="KJi-dg-swY">
+            <objects>
+                <tableViewController storyboardIdentifier="InventorySummaryVC" id="gJw-aR-rXk" customClass="InventorySummaryVC" customModule="NMBusinessModules" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="DI2-4K-VUo">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="gJw-aR-rXk" id="Xwg-pM-P6T"/>
+                            <outlet property="delegate" destination="gJw-aR-rXk" id="kE2-Vu-8Rd"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RKh-u0-QfN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="144" y="-250"/>
+        </scene>
+        <!--Inventory DetailVC-->
+        <scene sceneID="5xQ-aj-1o0">
+            <objects>
+                <tableViewController storyboardIdentifier="InventoryDetailVC" id="cbE-1M-XS4" customClass="InventoryDetailVC" customModule="NMBusinessModules" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="UfJ-mc-8mQ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <connections>
+                            <outlet property="dataSource" destination="cbE-1M-XS4" id="M9H-2B-xDb"/>
+                            <outlet property="delegate" destination="cbE-1M-XS4" id="VMa-XE-UFA"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U1g-yK-LRt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="759" y="-246"/>
+        </scene>
+        <!--Inventory ControlVC-->
+        <scene sceneID="yMc-Aq-YL0">
+            <objects>
+                <tableViewController storyboardIdentifier="InventoryControlVC" id="Pq7-Eb-KoF" customClass="InventoryControlVC" customModule="NMBusinessModules" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="XdV-Cq-oYb">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="Pq7-Eb-KoF" id="ucv-tZ-DIK"/>
+                            <outlet property="delegate" destination="Pq7-Eb-KoF" id="3t7-oD-UFY"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4qP-u3-pyR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1390" y="-247"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="searchIcon" width="27" height="28"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

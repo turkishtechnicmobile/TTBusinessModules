@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans-700.ttf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Selectable View Controller-->
+        <scene sceneID="l3l-GF-BAh">
+            <objects>
+                <viewController storyboardIdentifier="SelectableViewController" id="dhL-1X-34q" customClass="SelectableViewController" customModule="NMBusinessModules" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GRp-Iu-zsU">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gmW-Kj-dtU">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8VD-Va-cHp">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="974"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xb6-oB-kcD" customClass="BTButton" customModule="NMBaseView">
+                                        <rect key="frame" x="0.0" y="974" width="768" height="50"/>
+                                        <color key="backgroundColor" red="0.3776331544" green="0.60530120129999998" blue="0.91526180509999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="u4J-Qw-yqn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="18"/>
+                                        <state key="normal" title="Apply Selections">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="applyTapped:" destination="dhL-1X-34q" eventType="touchUpInside" id="09m-2Y-mSz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MJi-I9-6cC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MJi-I9-6cC" firstAttribute="bottom" secondItem="gmW-Kj-dtU" secondAttribute="bottom" id="7XV-6x-aLa"/>
+                            <constraint firstItem="gmW-Kj-dtU" firstAttribute="top" secondItem="MJi-I9-6cC" secondAttribute="top" id="HeU-lT-ScG"/>
+                            <constraint firstItem="MJi-I9-6cC" firstAttribute="trailing" secondItem="gmW-Kj-dtU" secondAttribute="trailing" id="PPA-Ct-k8z"/>
+                            <constraint firstItem="gmW-Kj-dtU" firstAttribute="leading" secondItem="MJi-I9-6cC" secondAttribute="leading" id="xWW-OC-t7r"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="HES-Xl-e8O">
+                        <barButtonItem key="leftBarButtonItem" title="Clear" style="done" id="O2A-q2-IHK">
+                            <connections>
+                                <action selector="barButtonTapped:" destination="dhL-1X-34q" id="QhC-4d-VEJ"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="cancel" id="9Ka-nF-HuF">
+                            <connections>
+                                <action selector="barButtonTapped:" destination="dhL-1X-34q" id="0ab-AA-d8g"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="applyButton" destination="xb6-oB-kcD" id="SuN-v4-GBU"/>
+                        <outlet property="cancelBarButtonItem" destination="9Ka-nF-HuF" id="x5j-cd-PmL"/>
+                        <outlet property="clearBarButtonItem" destination="O2A-q2-IHK" id="SgO-WN-GYM"/>
+                        <outlet property="tableView" destination="8VD-Va-cHp" id="hAF-64-7BI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2so-ML-v8B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2984" y="-789"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="xb6-oB-kcD">
+            <size key="intrinsicContentSize" width="140" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans-500.ttf">
+            <string>MuseoSans-500</string>
+        </array>
+        <array key="MuseoSans-700.ttf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellInventoryControl" id="k1E-iS-Rmt" customClass="CellInventoryControl" customModule="NMBusinessModules" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k1E-iS-Rmt" id="EVG-vb-ka6">
+                <rect key="frame" x="0.0" y="0.0" width="768" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="a4J-gR-v2F">
+                        <rect key="frame" x="16" y="16" width="752" height="68"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="CSe-Tq-KGc">
+                                <rect key="frame" x="0.0" y="0.0" width="188" height="68"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIc-wi-Hrh">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="68"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVS-RG-G3f">
+                                        <rect key="frame" x="94" y="0.0" width="94" height="68"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uEl-gi-D8f">
+                                <rect key="frame" x="188" y="0.0" width="188" height="68"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJR-Bk-15d">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="68"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACy-g2-mLs">
+                                        <rect key="frame" x="94" y="0.0" width="94" height="68"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mI9-p4-x0w">
+                                <rect key="frame" x="376" y="0.0" width="188" height="68"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5PO-i3-6ub">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="68"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qgv-gc-fzO">
+                                        <rect key="frame" x="94" y="0.0" width="94" height="68"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2SP-vJ-X33">
+                                <rect key="frame" x="564" y="0.0" width="188" height="68"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3Q-cl-Ob8">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="68"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBu-qg-dHL">
+                                        <rect key="frame" x="94" y="0.0" width="94" height="68"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1iY-gC-2gQ">
+                        <rect key="frame" x="16" y="99" width="752" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="gD0-h2-har"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="1iY-gC-2gQ" secondAttribute="trailing" id="2iy-9d-gIy"/>
+                    <constraint firstItem="a4J-gR-v2F" firstAttribute="leading" secondItem="EVG-vb-ka6" secondAttribute="leading" constant="16" id="6SU-3r-dOu"/>
+                    <constraint firstAttribute="trailing" secondItem="a4J-gR-v2F" secondAttribute="trailing" id="CPq-8V-fM6"/>
+                    <constraint firstAttribute="bottom" secondItem="a4J-gR-v2F" secondAttribute="bottom" constant="16" id="KLr-wP-JgN"/>
+                    <constraint firstAttribute="bottom" secondItem="1iY-gC-2gQ" secondAttribute="bottom" id="Yhr-9P-ZPQ"/>
+                    <constraint firstItem="1iY-gC-2gQ" firstAttribute="leading" secondItem="a4J-gR-v2F" secondAttribute="leading" id="knX-Eb-I3h"/>
+                    <constraint firstItem="a4J-gR-v2F" firstAttribute="top" secondItem="EVG-vb-ka6" secondAttribute="top" constant="16" id="sHw-Uh-zn9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="0Xp-mc-aK7"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="bottomLayoutConstraint" destination="KLr-wP-JgN" id="F1G-G5-npJ"/>
+                <outlet property="seperatorView" destination="1iY-gC-2gQ" id="8Zr-gv-yu1"/>
+                <outletCollection property="labelList" destination="tIc-wi-Hrh" collectionClass="NSMutableArray" id="3re-jf-pUe"/>
+                <outletCollection property="labelList" destination="CVS-RG-G3f" collectionClass="NSMutableArray" id="xa9-Y2-iQD"/>
+                <outletCollection property="labelList" destination="LJR-Bk-15d" collectionClass="NSMutableArray" id="MuB-fc-3lz"/>
+                <outletCollection property="labelList" destination="ACy-g2-mLs" collectionClass="NSMutableArray" id="FuO-kp-H2s"/>
+                <outletCollection property="labelList" destination="5PO-i3-6ub" collectionClass="NSMutableArray" id="ZL8-2M-dZV"/>
+                <outletCollection property="labelList" destination="Qgv-gc-fzO" collectionClass="NSMutableArray" id="raY-vQ-O0V"/>
+                <outletCollection property="labelList" destination="D3Q-cl-Ob8" collectionClass="NSMutableArray" id="em8-yr-LUh"/>
+                <outletCollection property="labelList" destination="RBu-qg-dHL" collectionClass="NSMutableArray" id="EpF-Tz-ifO"/>
+                <outletCollection property="stackList" destination="CSe-Tq-KGc" collectionClass="NSMutableArray" id="68z-7p-RKd"/>
+                <outletCollection property="stackList" destination="uEl-gi-D8f" collectionClass="NSMutableArray" id="a3b-Oa-yUl"/>
+                <outletCollection property="stackList" destination="mI9-p4-x0w" collectionClass="NSMutableArray" id="wet-85-bMr"/>
+                <outletCollection property="stackList" destination="2SP-vJ-X33" collectionClass="NSMutableArray" id="ySk-V3-1gF"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="107"/>
+        </tableViewCell>
+    </objects>
+</document>
