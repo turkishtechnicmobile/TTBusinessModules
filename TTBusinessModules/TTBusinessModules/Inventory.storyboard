@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,7 +16,7 @@
         <!--InventoryVC-->
         <scene sceneID="ph9-Vd-cgw">
             <objects>
-                <viewController storyboardIdentifier="InventoryVC" id="7Gc-iA-tB6" customClass="InventoryVC" customModule="NMBusinessModules" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InventoryVC" id="7Gc-iA-tB6" customClass="InventoryVC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nLW-a7-62a">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,14 +33,14 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="YSS-Mu-P7D">
                                                         <rect key="frame" x="0.0" y="0.0" width="224" height="88"/>
                                                         <subviews>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qmf-yj-zNa" customClass="TitledTextFieldComponentView" customModule="NMBaseView">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qmf-yj-zNa" customClass="TitledTextFieldComponentView" customModule="TTBaseView">
                                                                 <rect key="frame" x="0.0" y="0.0" width="224" height="40"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="40" id="mW6-Fn-owc"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n5h-0J-Tva" customClass="TitledTextFieldComponentView" customModule="NMBaseView">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n5h-0J-Tva" customClass="TitledTextFieldComponentView" customModule="TTBaseView">
                                                                 <rect key="frame" x="0.0" y="48" width="224" height="40"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </view>
@@ -50,11 +49,11 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Be6-9C-grt">
                                                         <rect key="frame" x="256" y="0.0" width="224" height="88"/>
                                                         <subviews>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RGl-gn-GAi" customClass="TitledTextFieldComponentView" customModule="NMBaseView">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RGl-gn-GAi" customClass="TitledTextFieldComponentView" customModule="TTBaseView">
                                                                 <rect key="frame" x="0.0" y="0.0" width="224" height="40"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </view>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tes-Ow-AM4" customClass="TitledButtonComponentView" customModule="NMBaseView">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tes-Ow-AM4" customClass="TitledButtonComponentView" customModule="TTBaseView">
                                                                 <rect key="frame" x="0.0" y="48" width="224" height="40"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </view>
@@ -66,7 +65,7 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tq7-vJ-ddY">
                                                                 <rect key="frame" x="0.0" y="0.0" width="224" height="40"/>
                                                                 <subviews>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ycb-Lp-qBN" customClass="ButtonComponentView" customModule="NMBaseView">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ycb-Lp-qBN" customClass="ButtonComponentView" customModule="TTBaseView">
                                                                         <rect key="frame" x="0.0" y="0.0" width="134.5" height="40"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     </view>
@@ -94,7 +93,7 @@
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xjA-Fu-jhb" customClass="TitleComponentView" customModule="NMBaseView">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xjA-Fu-jhb" customClass="TitleComponentView" customModule="TTBaseView">
                                                 <rect key="frame" x="16" y="104" width="736" height="40"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -138,7 +137,7 @@
         <!--Inventory SummaryVC-->
         <scene sceneID="KJi-dg-swY">
             <objects>
-                <tableViewController storyboardIdentifier="InventorySummaryVC" id="gJw-aR-rXk" customClass="InventorySummaryVC" customModule="NMBusinessModules" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="InventorySummaryVC" id="gJw-aR-rXk" customClass="InventorySummaryVC" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="DI2-4K-VUo">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -156,7 +155,7 @@
         <!--Inventory DetailVC-->
         <scene sceneID="5xQ-aj-1o0">
             <objects>
-                <tableViewController storyboardIdentifier="InventoryDetailVC" id="cbE-1M-XS4" customClass="InventoryDetailVC" customModule="NMBusinessModules" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="InventoryDetailVC" id="cbE-1M-XS4" customClass="InventoryDetailVC" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="UfJ-mc-8mQ">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -174,7 +173,7 @@
         <!--Inventory ControlVC-->
         <scene sceneID="yMc-Aq-YL0">
             <objects>
-                <tableViewController storyboardIdentifier="InventoryControlVC" id="Pq7-Eb-KoF" customClass="InventoryControlVC" customModule="NMBusinessModules" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="InventoryControlVC" id="Pq7-Eb-KoF" customClass="InventoryControlVC" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="XdV-Cq-oYb">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
